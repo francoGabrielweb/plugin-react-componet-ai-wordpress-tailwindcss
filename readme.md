@@ -12,8 +12,8 @@ npm install
 Deberás reemplazar los scripts que comienzan con pnpm por npx.
 
 
-|Guía de desarrollo paso a paso|
-
+Guía de desarrollo paso a paso
+---
 | comando| descricion |
 | --- | --- | 
 | `pnpm install` | Instalá dependencias |  
