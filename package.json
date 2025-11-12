@@ -1,0 +1,15 @@
+{
+  "name": "hero-block",
+  "version": "1.0.0",
+ "scripts": {
+  "tw:build": "pnpm tailwindcss -i ./src/style.css -o ./build/style.css --minify --content \"./src/**/*.{js,jsx,ts,tsx,php}\"",
+  "tw:watch": "npx @tailwindcss/cli -i ./src/style.css -o ./build/style.css --watch",
+  "dev": "wp-scripts start",
+  "build": "wp-scripts build"
+},
+
+  "devDependencies": {
+    "@wordpress/scripts": "30.10.0",
+    "tailwindcss": "4.0.6"
+  }
+}

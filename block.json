@@ -1,0 +1,24 @@
+{
+  "apiVersion": 2,
+  "name": "hero-block/hero",
+  "title": "Hero Tailwind 4",
+  "category": "widgets",
+  "icon": "cover-image",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/style.css",
+  "style": "file:./build/style.css",
+  "supports": {
+    "align": [ "wide", "full" ]
+  },
+  "attributes": {
+  "title": {
+    "type": "string",
+    "default": "Silver Border"
+  },
+  "description": {
+    "type": "string",
+    "default": "In case you'd like to emphasize something with metallic elegance."
+  }
+
+}
+}
