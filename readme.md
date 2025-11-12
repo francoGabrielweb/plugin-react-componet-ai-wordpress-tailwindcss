@@ -4,18 +4,18 @@ Este proyecto combina WordPress Gutenberg Blocks con TailwindCSS, utilizando @wo
 
 
 my-block/
-│
-├── build/                # Archivos compilados listos para producción
-│   └── style.css
-│
-├── src/                  # Código fuente (React + Tailwind)
-│   ├── index.js
-│   ├── style.css
-│   └── components/
-│
-├── package.json
-├── tailwind.config.js
-└── README.md
+
+   build/                # Archivos compilados listos para producción
+        style.css
+
+   src/                  # Código fuente (React + Tailwind)
+        index.js
+        style.css
+        components/
+
+package.json
+tailwind.config.js
+README.md
 
 
 "scripts": {
@@ -54,7 +54,6 @@ Deberás reemplazar los scripts que comienzan con pnpm por npx.
 
 
 Guía de desarrollo paso a paso
-|---|
 | comando| descricion |
 | --- | --- | 
 | `pnpm install` | Instalá dependencias |  
