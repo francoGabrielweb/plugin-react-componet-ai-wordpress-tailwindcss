@@ -12,15 +12,6 @@ npm install
 Deberás reemplazar los scripts que comienzan con pnpm por npx.
 
 
-Guía de desarrollo paso a paso
----
-| comando| descricion |
-| --- | --- | 
-| `pnpm install` | Instalá dependencias |  
-| `pnpm run tw:build` | Compilá los estilos iniciales |  
-| `pnpm run tw:watch` | Modo observador (recompila al guardar) |  
-| `pnpm run dev` | Iniciá el entorno de desarrollo|  
-| `pnpm run build` | Compilá para producción|  
 
 
 <table>
